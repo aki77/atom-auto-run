@@ -1,15 +1,13 @@
 {
   "name": "init-commands",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "When Atom finishes loading, it will dispatch.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/aki77/atom-init-commands",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
