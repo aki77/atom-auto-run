@@ -1,13 +1,21 @@
 {
-  "name": "init-commands",
+  "name": "auto-run",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "When Atom finishes loading, it will dispatch.",
   "keywords": [],
-  "repository": "https://github.com/aki77/atom-init-commands",
+  "repository": "https://github.com/aki77/atom-auto-run",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "providedServices": {
+    "auto-run": {
+      "description": "",
+      "versions": {
+        "0.1.0": "provideAutoRun"
+      }
+    }
+  }
 }
