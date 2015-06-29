@@ -1,3 +1,6 @@
+## 0.2.1
+* Update README
+
 ## 0.2.0
 * Renaming init-commands to auto-run
 * Provide 'auto-run' service
